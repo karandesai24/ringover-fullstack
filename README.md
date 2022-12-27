@@ -1,27 +1,27 @@
 ### Ringover Fullstack task
-
+<br/><br/>
 - Tech stacks used: React, SCSS, NodeJS, Express, Sequelize (ORM) , Postgres
-
-
+<br/>
+<br/>
 ### To run this App locally do following setup-
-
-
+<br/>
+<br/>
 **For BACKEND**
-
+<br/>
 - config .env file for backend(server) with following key-values:
-
+<br/>
 - For Sequelize db: DEV_DATABASE,TEST_DATABASE,PROD_DATABASE,DATABASE_USER,DATABASE_USER_PROD,DATABASE_PASSWORD,DATABASE_PASSWORD_PROD,DATABASE_HOST,DATABASE_HOST_PROD
 - For cookie-token :JWT_SECRET,JWT_LIFETIME,SIGNED_COOKIE_SECRET
-
+<br/>
 - Add base localhost url in index.js inside server folder as cross-origin for cors restriction.
-
-**For FRONT END**
-
+<br/>
+**For FRONTEND**
+<br/>
 - config .env file for frontend(client) with backend url as:
-
+<br/>
 - REACT_APP_BASE_URL= "http://localhost:5000"
 
-
+<br/><br/><br/>
 
 
 
