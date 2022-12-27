@@ -21,7 +21,7 @@ const attachCookiesToResponse = ({ req, res, user }) => {
     expires: new Date(Date.now() + duration),
     secure,
     signed: true,
-    sameSite: secure ? "None" : "Lax",
+    sameSite: "none",
   });
 };
 
