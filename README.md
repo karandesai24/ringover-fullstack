@@ -18,7 +18,6 @@
 **For BACKEND**
 
 
-------------
 
 <br></br>
 - config .env file for backend(server) with following key-values:
@@ -32,8 +31,6 @@
 
 **For FRONTEND**
 
-------------
-
 
 
 <br></br>
@@ -43,8 +40,5 @@
 
 
 <br></br>
-
-<br></br>
-
 
 ### Alright now App is ready to run locally  ! 🚀 
