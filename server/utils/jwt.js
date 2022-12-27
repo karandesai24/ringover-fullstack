@@ -19,7 +19,7 @@ const attachCookiesToResponse = ({ req, res, user }) => {
   res.cookie("token", token, {
     httpOnly: true,
     expires: new Date(Date.now() + duration),
-    secure,
+    secure:true,
     signed: true,
     sameSite: "none",
   });
