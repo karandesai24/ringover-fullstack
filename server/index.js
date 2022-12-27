@@ -22,7 +22,7 @@ const connectDB = require("./db/connect");
 
 app.use(
   cors({
-    origin: ["https://ringover-fullstack.onrender.com","http://localhost:3000"],
+    origin: ["https://ringover-fullstack.onrender.com"],
     credentials: true,
   })
 );
