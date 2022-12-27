@@ -42,4 +42,4 @@
 <br></br>
 
 ### Alright now App is ready to run locally  ! 🚀 
-## run node index.js for server-backend & npm start for client-frontend 
+**run node index.js for server-backend & npm start for client-frontend**
