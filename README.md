@@ -1,23 +1,27 @@
-#Ringover Fullstack task
+### Ringover Fullstack task
 
-##Tech stacks used: React, SCSS, NodeJS, Express, Sequelize (ORM) , Postgres
+- Tech stacks used: React, SCSS, NodeJS, Express, Sequelize (ORM) , Postgres
 
-#For backend 
 
-##To run this App locally do following setup-
+###To run this App locally do following setup-
 
-###->config .env file for backend(server) with following key-values:
 
-###For Sequelize db: DEV_DATABASE,TEST_DATABASE,PROD_DATABASE,DATABASE_USER,DATABASE_USER_PROD,DATABASE_PASSWORD,DATABASE_PASSWORD_PROD,DATABASE_HOST,DATABASE_HOST_PROD
-###For cookie-token :JWT_SECRET,JWT_LIFETIME,SIGNED_COOKIE_SECRET
+**For BACKEND**
 
-###->Add base localhost url in index.js inside server folder as cross-origin for cors restrication.
+- config .env file for backend(server) with following key-values:
 
-#For frontend 
+- For Sequelize db: DEV_DATABASE,TEST_DATABASE,PROD_DATABASE,DATABASE_USER,DATABASE_USER_PROD,DATABASE_PASSWORD,DATABASE_PASSWORD_PROD,DATABASE_HOST,DATABASE_HOST_PROD
+- For cookie-token :JWT_SECRET,JWT_LIFETIME,SIGNED_COOKIE_SECRET
 
-###->config .env file for frontend(client) with backend url as:
+- Add base localhost url in index.js inside server folder as cross-origin for cors restrication.
 
-###->REACT_APP_BASE_URL="http://localhost:5000"
+**For FRONT END**
+- config .env file for frontend(client) with backend url as:
 
-#Alright now App is ready to run locally !🚀
+- REACT_APP_BASE_URL= "http://localhost:5000"
 
+
+
+
+
+###Alright now App is ready to run locally  ! 🚀 
