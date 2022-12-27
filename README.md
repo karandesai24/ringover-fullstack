@@ -3,7 +3,7 @@
 - Tech stacks used: React, SCSS, NodeJS, Express, Sequelize (ORM) , Postgres
 
 
-###To run this App locally do following setup-
+### To run this App locally do following setup-
 
 
 **For BACKEND**
@@ -24,4 +24,4 @@
 
 
 
-###Alright now App is ready to run locally  ! 🚀 
+### Alright now App is ready to run locally  ! 🚀 
