@@ -1,0 +1,52 @@
+@import "../../partials/variables";
+
+.contact {
+  .contact-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .contact-heading {
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .contact-details {
+    padding: 2.4rem;
+    box-shadow: 0px 0px 10px 0px rgba(95, 94, 94, 0.75);
+  }
+
+  .support-item {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .support-item h3 {
+    font-weight: 400;
+  }
+
+  .support-item p {
+    font-size: 1rem;
+  }
+
+  .social-links {
+    text-align: center;
+
+    margin-top: 1.2rem;
+    font-size: 1rem;
+  }
+
+  .social-links-list {
+    list-style: none;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .social-links-list li {
+    cursor: pointer;
+  }
+}
